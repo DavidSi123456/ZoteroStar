@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "期刊星级与简称",
+  "version": "0.1.2",
+  "description": "独立显示 AJG2024 期刊星级与 AER/QJE/JDE 等简称；支持当前分类筛选和新导入自动更新。",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "applications": {
+    "zotero": {
+      "id": "journal-stars@davidsi.local",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*",
+      "update_url": "https://127.0.0.1:23119/journal-stars-updates.json"
+    }
+  }
+}
